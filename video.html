@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--idioma para judar o leitor de tela-->
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <title> Meus vídeos</title>
+    </head>
+    <body>
+        <h1>Meus vídeos</h1>
+        <!-- emet {texto} mouse fora da enter -->
+        <!-- ctrl ; para comentar -->
+        <p>Veja alguns vídeos que gravei</p>
+        <video 
+            height = "400"
+            width="2000"
+            controls>
+            <!-- source[src=videos/tocando_violao.mp4][type=video/mp4] -->
+            <source src=videos/tocando_violao.mp4 type=video/mp4 >
+            <!-- se não rodar irá mostra este texto -->
+            Seu navegador não é capasz de lidar com vídeos.
+
+            <!-- vídeos do yt não usar "videos"usar elementos iframe, não para atribuir outra página html a sua página -->
+            <!-- no próprio yt compartilhar  -->
+        </video>
+        
+        <!-- =https://www.youtube.com/embed/5mF4pKSi2SU][frameborder=0]iframe[src -->
+        <iframe src="https://www.youtube.com/embed/5mF4pKSi2SU" frameborder="0">
+
+        </iframe width="560" height="315" src="https://www.youtube.com/embed/5mF4pKSi2SU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    </body>
+</html>
